@@ -22,8 +22,8 @@ public class Tester {
         Scanner sc = new Scanner(System.in);
         Tabungan tabungan = new Tabungan(0);
         System.out.println("====Program Penarikan Uang====");
-        System.out.println("Masukkan Saldo Awal      : ");tabungan.setSaldo(sc.nextInt());
-        System.out.println("Jumlah uang yang diambil : ");jumlah = sc.nextInt();
+        System.out.print("Masukkan Saldo Awal      : ");tabungan.setSaldo(sc.nextInt());
+        System.out.print("Jumlah uang yang diambil : ");jumlah = sc.nextInt();
         System.out.println("Saldo Anda Sekarang\t     : " + tabungan.ambilUang(jumlah));
     }
 }
